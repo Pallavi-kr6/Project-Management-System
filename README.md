@@ -317,8 +317,6 @@ Passwords hashed by Supabase Auth (never stored here) · cookie sessions validat
 | [`docs/database-schema.md`](docs/database-schema.md) | ER diagram, tables, constraints, indexes, RLS policies |
 | [`docs/architecture.md`](docs/architecture.md) | Architecture and the "why" behind each technology |
 | [`docs/code-walkthrough.md`](docs/code-walkthrough.md) | File-by-file explanation with likely interviewer questions |
-| [`docs/interview-questions.md`](docs/interview-questions.md) | Implementation-specific interview Q&A |
-| [`docs/interview-cheat-sheet.md`](docs/interview-cheat-sheet.md) | 30-minute revision sheet |
 | [`docs/demo-script.md`](docs/demo-script.md) | 5-minute web-only demo script |
 | [`docs/github-setup.md`](docs/github-setup.md) | Repo description, topics, first commit, push commands |
 
