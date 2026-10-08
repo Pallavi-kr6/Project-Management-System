@@ -1,0 +1,41 @@
+{
+  "name": "project-management-system-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authenticated, multi-tenant project and task management web app built with Next.js, JavaScript and Supabase.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:rls": "bash scripts/test-rls.sh",
+    "test:integration": "bash scripts/test-integration.sh"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.52.0",
+    "next": "^15.5.27",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "swr": "^2.5.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@supabase/postgrest-js": "^2.117.2",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.27",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^3.4.19",
+    "vitest": "^5.0.3"
+  }
+}

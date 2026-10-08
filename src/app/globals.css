@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 97%;
+    --foreground: 222 26% 12%;
+    --card: 0 0% 100%;
+    --muted: 214 22% 93%;
+    --muted-foreground: 218 12% 40%;
+    --border: 214 18% 87%;
+    --input: 214 16% 80%;
+    --primary: 173 80% 24%;
+    --primary-foreground: 0 0% 100%;
+    --destructive: 0 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 173 70% 32%;
+    --sidebar: 222 28% 11%;
+    --sidebar-foreground: 214 20% 78%;
+    --sidebar-accent: 222 24% 18%;
+    --shadow: 222 40% 10%;
+    color-scheme: light;
+  }
+
+  .dark {
+    --background: 222 24% 8%;
+    --foreground: 214 20% 92%;
+    --card: 222 22% 11%;
+    --muted: 222 18% 16%;
+    --muted-foreground: 215 14% 66%;
+    --border: 222 16% 20%;
+    --input: 222 14% 28%;
+    --primary: 172 66% 44%;
+    --primary-foreground: 222 30% 8%;
+    --destructive: 0 70% 56%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 172 66% 50%;
+    --sidebar: 222 30% 6%;
+    --sidebar-foreground: 214 16% 72%;
+    --sidebar-accent: 222 22% 13%;
+    --shadow: 0 0% 0%;
+    color-scheme: dark;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+dialog {
+  margin: auto;
+}

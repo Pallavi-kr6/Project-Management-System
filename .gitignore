@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+
+# next.js
+.next/
+out/
+build/
+
+# environment files & secrets (NEVER commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+credentials*.json
+
+# logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# tests / coverage
+coverage/
+.vitest/
+
+# typescript
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# local archives
+*.zip
