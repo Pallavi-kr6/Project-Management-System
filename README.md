@@ -2,13 +2,11 @@
 
 > An authenticated, multi-tenant project and task management web application built with **Next.js**, **JavaScript** and **Supabase PostgreSQL**, with REST-style API routes, server-side validation, secure authentication, Row Level Security and a responsive SaaS-style dashboard.
 
-**Scope note.** The original assignment asks for a web app *and* a mobile app. This implementation is **web only** by design; there is no React Native / Flutter / Expo code. The backend is a normal REST API, so a mobile client could be added later without changing it.
-
 ---
 
 ## Screenshots
 
-Captured from a real-browser verification run (test data only).
+ 
 
 | Dashboard (light) | Dashboard (dark) |
 |---|---|
